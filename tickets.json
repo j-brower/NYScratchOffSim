@@ -1,0 +1,61 @@
+{
+  "tickets": [
+    {
+      "name": "Instant Take 5",
+      "price": 1,
+      "imgURL": "http://nylottery.ny.gov/wps/wcm/connect/373a98c1-e4a9-4811-ba75-05330a406250/831_lg.jpg?MOD=AJPERES",
+      "chances": [
+        {"chance": 2.84, "prize": "Free Take 5"},
+        {"chance": 8.70, "prize": 1},
+        {"chance": 23.26, "prize": 2},
+        {"chance": 23.81, "prize": 5},
+        {"chance": 111.11, "prize": 10},
+        {"chance": 250.00, "prize": 20},
+        {"chance": 3481.69, "prize": 40},
+        {"chance": 12360.00, "prize": 100},
+        {"chance": 546442.11, "prize": 5555}
+      ]
+    },
+    {
+      "name": "Cashword Doubler",
+      "price": 2,
+      "imgURL": "nylottery.ny.gov/wps/wcm/connect/9b1c072d-a929-421a-b880-b5b78354515c/747_lg.jpg?MOD=AJPERES",
+      "chances": [
+        {"chance": 13.16, "prize": 2},
+        {"chance": 28.57, "prize": 4},
+        {"chance": 27.03, "prize": 5},
+        {"chance": 27.78, "prize": 10},
+        {"chance": 250.00, "prize": 20},
+        {"chance": 250.00, "prize": 25},
+        {"chance": 250.00, "prize": 50},
+        {"chance": 2520.00, "prize": 100},
+        {"chance": 25200.00, "prize": 200},
+        {"chance": 126000.00, "prize": 1000},
+        {"chance": 249017.75, "prize": 2000},
+        {"chance": 1275272.73, "prize": 10000},
+        {"chance": 2630250.00, "prize": 20000}
+      ]
+    },
+    {
+      "name": "Wonka Golden Ticket",
+      "price": 10,
+      "imgURL": "http://nylottery.ny.gov/wps/wcm/connect/4e58f64c-09ba-458c-a9c1-2dc1bad67309/1282_lg.jpg?MOD=AJPERES",
+      "chances": [
+        {"chance": 8.33, "prize": 10},
+        {"chance": 50.00, "prize": 15},
+        {"chance": 50.00, "prize": 20},
+        {"chance": 50.00, "prize": 25},
+        {"chance": 50.00, "prize": 30},
+        {"chance": 50.00, "prize": 50},
+        {"chance": 50.00, "prize": 100},
+        {"chance": 1236.00, "prize": 150},
+        {"chance": 4120.00, "prize": 200},
+        {"chance": 16480.00, "prize": 300},
+        {"chance": 30900.00, "prize": 500},
+        {"chance": 840480.00, "prize": 5000},
+        {"chance": 1680960.00, "prize": 10000},
+        {"chance": 4202400.00, "prize": "150K/YR/20YRS"}
+      ]
+    }
+  ]
+}
