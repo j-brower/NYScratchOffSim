@@ -1,9 +1,21 @@
-var data = {};
+var tickets = [];
 
 axios.get('https://j-brower.github.io/NYScratchOffSim/tickets.json').then(response => {
 
-    console.log(response.data);
-
+  ticketsRes = response.data;
+  for(int i = 0; i < tickets.length; i++) {
+    var obj = {
+      name: ticketsRes[i].name;
+      price: ticketsRes[i].price;
+      imgURL: ticketsRes[i].imgURL;
+      chances: ticketsRes[i].chances;
+      quantity: 0;
+    }
+    tickets.append(obj);
+  }
+  for(int i = 0; i < tickets.length; i++) {
+    console.log(tickets[i].name);
+  }
   }, response => {
     console.log(this.results);
     console.log("Could not retrieve data.");
@@ -12,14 +24,7 @@ var select = new Vue({
 
   el: '#select',
   data: {
-    tickets: function() {
-      ticketArray = [];
-      var jsonTicketArray = data.get("tickets");
-      for(i = 0; i < jsonTicketArray.length; i++) {
-        console.log(jsonTicketArray[i]);
-      }
-      return ticketArray;
-    }
+
 
   }
 
