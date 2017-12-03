@@ -1,12 +1,11 @@
 var data = {};
 
-Vue.http.get('https://j-brower.github.io/NYScratchOffSim/tickets.json').then(response => {
+axios.get('https://j-brower.github.io/NYScratchOffSim/tickets.json').then(response => {
 
-    // get body data
-    data = response.json();
-    console.log(data);
+    console.log(this.results);
+
   }, response => {
-    console.log(response);
+    console.log(this.results);
     console.log("Could not retrieve data.");
   });
 var select = new Vue({
