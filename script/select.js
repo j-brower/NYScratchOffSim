@@ -2,7 +2,7 @@ var data = {};
 
 axios.get('https://j-brower.github.io/NYScratchOffSim/tickets.json').then(response => {
 
-    console.log(this.results);
+    console.log(response.data.results);
 
   }, response => {
     console.log(this.results);
