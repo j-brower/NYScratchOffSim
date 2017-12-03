@@ -2,8 +2,8 @@ var tickets = [];
 
 axios.get('https://j-brower.github.io/NYScratchOffSim/tickets.json').then(response => {
 
-  ticketsRes = response.data;
-  for(i = 0; i < tickets.length; i++) {
+  ticketsRes = response.data.tickets;
+  for(i = 0; i < ticketsRes.length; i++) {
     var obj = {
       name: ticketsRes[i].name,
       price: ticketsRes[i].price,
@@ -11,7 +11,7 @@ axios.get('https://j-brower.github.io/NYScratchOffSim/tickets.json').then(respon
       chances: ticketsRes[i].chances,
       quantity: 0
     }
-    tickets.append(obj);
+    tickets.push(obj);
   }
   for(i = 0; i < tickets.length; i++) {
     console.log(tickets[i].name);
