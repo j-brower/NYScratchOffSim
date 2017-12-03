@@ -5,11 +5,11 @@ axios.get('https://j-brower.github.io/NYScratchOffSim/tickets.json').then(respon
   ticketsRes = response.data;
   for(i = 0; i < tickets.length; i++) {
     var obj = {
-      name: ticketsRes[i].name;
-      price: ticketsRes[i].price;
-      imgURL: ticketsRes[i].imgURL;
+      name: ticketsRes[i].name,
+      price: ticketsRes[i].price,
+      imgURL: ticketsRes[i].imgURL,
       chances: ticketsRes[i].chances;
-      quantity: 0;
+      quantity: 0
     }
     tickets.append(obj);
   }
