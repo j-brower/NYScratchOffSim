@@ -5,12 +5,13 @@
  <noscript>This simulation requires JavaScript.</noscript>
 </head>
 <body>
-  <div id="select">
+  <ul id="select">
+    <li v-for="ticket in tickets">
+      {{ticket.name}}
 
 
 
-
-  </div>
+  </ul>
   <script src="https://unpkg.com/vue"></script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script src="./script/select.js"></script>
