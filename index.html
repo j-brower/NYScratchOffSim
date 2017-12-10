@@ -11,9 +11,9 @@
   <ul id="select">
     <li v-for="ticket in tickets">
       {{ticket.name}}
-
-
-
+      <input v-model="ticket.quantity" type="number" min="0">
+      </input>
+    </li>
   </ul>
 
 
