@@ -8,13 +8,20 @@
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
 <body>
-  <ul id="select">
-    <li v-for="ticket in tickets">
-      {{ticket.name}}
-      <input v-model="ticket.quantity" type="number" min="0">
-      </input>
-    </li>
-  </ul>
+  <div id="title">
+    <h1>New York Lotto Scratch Off Simulator</h1>
+    <p> Current Earnings: </p>
+  </div>
+  <div id="select">
+    <ul>
+      <li v-for="ticket in tickets">
+        {{ticket.name}}
+        <input v-model="ticket.quantity" type="number" min="0">
+        </input>
+      </li>
+    </ul>
+    <button v-on:click="buyTickets">Buy!</button>
+  </div>
 
 
 </body>

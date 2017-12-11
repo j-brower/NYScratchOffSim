@@ -27,6 +27,12 @@ var select = new Vue({
   el: '#select',
   data: {
     tickets: ticketsArray
+  },
+  methods: {
+    buyTickets: function(event) {
+      alert("not implemented");
+    }
   }
+
 
 })
