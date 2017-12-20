@@ -3,24 +3,31 @@
 <head>
  <meta charset="UTF-8">
  <noscript>This simulation requires JavaScript.</noscript>
+ <script src="https://unpkg.com/vue"></script>
+ <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+ <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+ <link rel="stylesheet" href="./styles/style.css">
 </head>
-<script src="https://unpkg.com/vue"></script>
-<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
 
 <body>
-  <div id="title">
+  <div id="title" class="w3-panel w3-card w3-center w3-blue">
     <h1>New York Lotto Scratch Off Simulator</h1>
     <p> Current Earnings: </p>
   </div>
-  <div id="select">
-    <ul>
-      <li v-for="ticket in tickets">
-        {{ticket.name}}
-        <input v-model="ticket.quantity" type="number" min="0">
-        </input>
+  <div id="select" class="w3-content w3-display-container w3-card-2 w3-center">
+    <ul class="w3-ul">
+      <li class="w3-padding-small"><h2>Available Tickets:</h2></li>
+      <li class="w3-padding-small" v-for="ticket in tickets">
+        <img id="ticketImage" :src="ticket.imgURL" class="w3-image" style="height:32px;">
+          {{ticket.name}}
+        <input v-model="ticket.quantity" type="number" min="0"
+          class="w3-input w3-border">
       </li>
     </ul>
-    <button v-on:click="buyTickets">Buy!</button>
+    <button v-on:click="buyTickets"
+      class="w3-button w3-blue w3-hover-yellow w3-hover-text-white w3-text-white">Buy!</button>
   </div>
 
 
