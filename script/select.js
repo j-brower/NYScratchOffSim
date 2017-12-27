@@ -22,17 +22,32 @@ axios.get('https://j-brower.github.io/NYScratchOffSim/tickets.json').then(respon
   });
 
 
-var select = new Vue({
+var app = new Vue({
 
-  el: '#select',
   data: {
-    tickets: ticketsArray
+    tickets: ticketsArray,
+    selecting: true,
+    showingResults: false
+
   },
   methods: {
     buyTickets: function(event) {
-      alert("not implemented");
+      //alert("not implemented");
+      this.selecting = false;
+      this.showingResults = true;
+
+    },
+    saveResults: function(event) {
+      //alert("not implemented");
+      this.showingResults = false;
+      this.selecting = true;
+      for(var i=0; i<this.tickets.length; i++) {
+        this.tickets[i].quantity = 0;
+      }
     }
   }
 
 
 })
+
+app.$mount('.ticketapp')
