@@ -19,6 +19,7 @@ var ticketsArray = [];
 var initialBalance = parseInt(readBalance());
 console.log(initialBalance);
 if(isNaN(initialBalance)) {
+  initialBalance = 0;
   document.cookie = "balance=0; expires=Sat, 01 Jan 2118 12:00:00 UTC; path=/";
 }
 
