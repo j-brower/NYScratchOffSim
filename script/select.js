@@ -1,4 +1,26 @@
+function readBalance() {
+  var name="balance";
+  var decodedCookie = decodeURIComponent(document.cookie);
+  var ca = decodedCookie.split(';');
+  for(var i = 0; i < ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') {
+          c = c.substring(1);
+      }
+      if (c.indexOf(name) == 0) {
+          return c.substring(name.length + 1, c.length);
+      }
+  }
+  return "";
+}
+
+
 var ticketsArray = [];
+var initialBalance = parseInt(readBalance());
+console.log(initialBalance);
+if(isNaN(initialBalance)) {
+  document.cookie = "balance=0; expires=Sat, 01 Jan 2118 12:00:00 UTC; path=/";
+}
 
 axios.get('https://j-brower.github.io/NYScratchOffSim/tickets.json').then(response => {
 
@@ -22,10 +44,13 @@ axios.get('https://j-brower.github.io/NYScratchOffSim/tickets.json').then(respon
   });
 
 
+
 var app = new Vue({
 
   data: {
     tickets: ticketsArray,
+    balance: initialBalance,
+    resultsArray: [],
     selecting: true,
     showingResults: false
 
@@ -34,16 +59,22 @@ var app = new Vue({
     buyTickets: function(event) {
       //alert("not implemented");
       this.selecting = false;
+      for(var i = 0; i < this.tickets.length; i++) {
+        if(this.tickets[i].quantity > 0) {
+          this.balance -= this.tickets[i].quantity;
+        }
+      }
       this.showingResults = true;
-
     },
-    saveResults: function(event) {
+    endResults: function(event) {
       //alert("not implemented");
       this.showingResults = false;
       this.selecting = true;
       for(var i=0; i<this.tickets.length; i++) {
         this.tickets[i].quantity = 0;
       }
+      document.cookie = "balance=" + this.balance +
+        "; expires=Sat, 01 Jan 2118 12:00:00 UTC; path=/";
     }
   }
 
