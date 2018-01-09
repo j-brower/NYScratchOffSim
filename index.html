@@ -17,7 +17,10 @@
   <section class="ticketapp">
     <div id="title" class="w3-panel w3-card w3-center w3-blue">
       <h1>New York Lotto Scratch Off Simulator</h1>
-      <p>Current Balance: ${{balance}}</p>
+      <p v-if="balance >= 0">Current Balance: <strong>${{balance}}</strong></p>
+      <p v-if="balance < 0">Current Balance:
+        <strong><span class="w3-text-red">(${{Math.abs(balance)}})</span></strong>
+      </p>
     </div>
     <div id="select" class="w3-content w3-display-container w3-card-2 w3-center" v-show="selecting">
       <ul class="w3-ul">

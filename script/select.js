@@ -14,6 +14,10 @@ function readBalance() {
   return "";
 }
 
+function simulateScratch(ticket) {
+  return 1;
+}
+
 
 var ticketsArray = [];
 var initialBalance = parseInt(readBalance());
@@ -62,7 +66,14 @@ var app = new Vue({
       this.selecting = false;
       for(var i = 0; i < this.tickets.length; i++) {
         if(this.tickets[i].quantity > 0) {
-          this.balance -= this.tickets[i].quantity;
+          var result = 0;
+          for(var j = 0; j < this.tickets[i].quantity; j++) {
+            result += simulateScratch(this.tickets[i]);
+          }
+          var resultTicket = this.tickets[i];
+          resultTicket.result = result;
+          this.resultsArray.push(resultTicket);
+          this.balance += result;
         }
       }
       this.showingResults = true;
