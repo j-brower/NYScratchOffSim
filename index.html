@@ -27,8 +27,8 @@
         <li class="w3-padding-small"><h2>Available Tickets:</h2></li>
         <li class="w3-padding-small" v-for="ticket in tickets">
           <img id="ticketImage" :src="ticket.imgURL" class="w3-image" style="height:32px;">
-            {{ticket.name}}
-            <input v-model="ticket.quantity" type="number" min="0"
+          {{ticket.name}}
+          <input v-model="ticket.quantity" type="number" min="0"
             class="w3-input w3-border">
         </li>
       </ul>
@@ -37,12 +37,26 @@
         Buy!</button>
     </div>
     <div id="results" class="w3-content w3-display-container w3-card-2 w3-center" v-show="showingResults">
-      <h2>Results:</h2>
+      <ul class="w3-ul">
+        <li class="w3-padding-small"><h2>Results:</h2></li>
+        <li class="w3-padding-small" v-for="ticket in resultsArray">
+          <img id="ticketImage" :src="ticket.imgURL" class="w3-image" style="height:32px;">
+          {{ticket.name}}
+          <p v-if="ticket.result >= 0"><span class="w3-text-green">
+            You spent ${{ticket.price}} and won ${{ticket.result + ticket.price}}!<span></p>
+          <p v-if="ticket.result < 0"><span class="w3-text-red">
+            You lost ${{Math.abs(ticket.result)}}.</span></p>
+          <p v-if="ticket.result =='Free Take 5'">
+            You spent $1 and won a Take Five quickpick...</p>
+        </li>
+      </ul>
       <button v-on:click="endResults"
         class="w3-button w3-blue w3-hover-yellow w3-hover-text-white w3-text-white">
         OK</button>
     </div>
 
 </section>
+<p>not affiliated with the New York Lottery</p>
+<p>odds are copied from <a href="nylottery.ny.gov">nylottery.ny.gov</a></p>
 </body>
 <script src="./script/select.js"></script>
