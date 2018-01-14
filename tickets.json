@@ -1,6 +1,37 @@
 {
   "tickets": [
     {
+      "name": "Loose Change",
+      "price": 1,
+      "imgURL": "http://nylottery.ny.gov/wps/wcm/connect/1447e9f8-6edf-4e11-ba03-e175afc9d779/803_lg.jpg?MOD=AJPERES",
+      "chances": [
+        {"chance": 8.59, "prize": 1},
+        {"chance": 18.81, "prize": 2},
+        {"chance": 34.61, "prize": 5},
+        {"chance": 125, "prize": 10},
+        {"chance": 226.42, "prize": 25},
+        {"chance": 824, "prize": 40},
+        {"chance": 3296, "prize": 100},
+        {"chance": 49440, "prize": 500}
+      ]
+    },
+    {
+      "name": "Lucky 7's",
+      "price": 1,
+      "imgURL": "http://nylottery.ny.gov/wps/wcm/connect/5c62b582-a547-4938-a704-0ed06d1aac99/822_lg.jpg?MOD=AJPERES",
+      "chances": [
+        {"chance": 8.33, "prize": 1},
+        {"chance": 20.83, "prize": 2},
+        {"chance": 100, "prize": 4},
+        {"chance": 45.45, "prize": 7},
+        {"chance": 250, "prize": 14},
+        {"chance": 250, "prize": 17},
+        {"chance": 500, "prize": 34},
+        {"chance": 49440, "prize": 700},
+        {"chance": 811125, "prize": 2700}
+      ]
+    },
+    {
       "name": "Instant Take 5",
       "price": 1,
       "imgURL": "http://nylottery.ny.gov/wps/wcm/connect/373a98c1-e4a9-4811-ba75-05330a406250/831_lg.jpg?MOD=AJPERES",
@@ -14,6 +45,26 @@
         {"chance": 3481.69, "prize": 40},
         {"chance": 12360.00, "prize": 100},
         {"chance": 546442.11, "prize": 5555}
+      ]
+    },
+    {
+      "name": "Win for Life",
+      "price": 2,
+      "imgURL": "http://nylottery.ny.gov/wps/wcm/connect/e8811324-9c98-4cc2-9e9e-3dba5ad0484a/1124_lg.jpg?MOD=AJPERES",
+      "chances": [
+        {"chance": 8.73, "prize": 2},
+        {"chance": 39.87, "prize": 4},
+        {"chance": 35.5, "prize": 5},
+        {"chance": 170.21, "prize": 10},
+        {"chance": 66.85, "prize": 20},
+        {"chance": 250, "prize": 25},
+        {"chance": 250, "prize": 50},
+        {"chance": 125, "prize": 100},
+        {"chance": 250, "prize": 200},
+        {"chance": 3090, "prize": 1000},
+        {"chance": 92947, "prize": 2000},
+        {"chance": 929472, "prize": 10000},
+        {"chance": 7745600, "prize": 2346431}
       ]
     },
     {
