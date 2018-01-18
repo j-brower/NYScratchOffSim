@@ -20,23 +20,27 @@
       <p v-if="balance >= 0">Current Balance: <strong>${{balance}}</strong></p>
       <p v-if="balance < 0">Current Balance:
         <strong><span class="w3-text-red">(${{Math.abs(balance)}})</span></strong>
+        <p>
+          <a href="confirmReset">surrender</a>
+          <a href="showHelp">help</a>
+        </p>
       </p>
     </div>
-    <div id="select" class="w3-content w3-display-container w3-card-2 w3-center" v-show="selecting">
+    <div id="select" class="w3-content w3-white w3-display-container w3-card-2 w3-center" v-show="selecting">
       <ul class="w3-ul">
         <li class="w3-padding-small"><h2>Available Tickets:</h2></li>
         <li class="w3-padding-small" v-for="ticket in tickets">
           <img id="ticketImage" :src="ticket.imgURL" class="w3-image" style="height:32px;">
-          {{ticket.name}}
+          <p>{{ticket.name}} (${{ticket.price}})</p>
           <input v-model="ticket.quantity" type="number" min="0"
-            class="w3-input w3-border">
+            class="w3-input w3-border w3-center">
         </li>
       </ul>
       <button v-on:click="buyTickets"
         class="w3-button w3-blue w3-hover-yellow w3-hover-text-white w3-text-white">
         Buy!</button>
     </div>
-    <div id="results" class="w3-content w3-display-container w3-card-2 w3-center" v-show="showingResults">
+    <div id="results" class="w3-content w3-white w3-display-container w3-card-2 w3-center" v-show="showingResults">
       <ul class="w3-ul">
         <li class="w3-padding-small"><h2>Results:</h2></li>
         <li class="w3-padding-small" v-for="ticket in resultsArray">
@@ -56,7 +60,9 @@
     </div>
 
 </section>
-<p>not affiliated with the New York Lottery</p>
-<p>odds are copied from <a href="nylottery.ny.gov">nylottery.ny.gov</a></p>
+<section class="w3-white w3-content w3-center w3-text-small">
+  <p>not affiliated with the New York Lottery</p>
+  <p>odds are taken from <a href="https://nylottery.ny.gov">nylottery.ny.gov</a></p>
+</section>
 <script src="./script/select.js"></script>
 </body>

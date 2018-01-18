@@ -114,6 +114,7 @@ var app = new Vue({
         }
       }
       this.showingResults = true;
+      window.scrollTo(0, 0);
       document.cookie = "balance=" + this.balance +
         "; expires=Sat, 01 Jan 2118 12:00:00 UTC; path=/";
     },
@@ -121,6 +122,7 @@ var app = new Vue({
       //alert("not implemented");
       this.showingResults = false;
       this.selecting = true;
+      window.scrollTo(0, 0);
       for(var i=0; i<this.tickets.length; i++) {
         this.tickets[i].quantity = 0;
       }
