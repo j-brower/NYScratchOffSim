@@ -133,7 +133,7 @@
         {"chance": 200, "prize": 50},
         {"chance": 5040, "prize": 100},
         {"chance": 126000, "prize": 1000},
-        {"chance": 1558666.67 "prize": 10000}
+        {"chance": 1558666.67, "prize": 10000}
       ]
     },
     {
