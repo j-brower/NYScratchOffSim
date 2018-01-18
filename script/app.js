@@ -51,7 +51,9 @@ function isWinner(chance) {
   return false;
 }
 
-
+var helpString = "You have just moved to New York to pursue your dream of "+
+  "becoming a professional convenience store loiterer. You can go into as much"+
+  " debt as your browser will support.";
 var ticketsArray = [];
 var initialBalance = parseInt(readBalance());
 console.log(initialBalance);
@@ -87,14 +89,14 @@ var app = new Vue({
     tickets: ticketsArray,
     balance: initialBalance,
     resultsArray: [],
-    selecting: true,
-    showingResults: false
-
+    showingSelect: true,
+    showingResults: false,
+    showingReset: false
   },
   methods: {
     buyTickets: function(event) {
       //alert("not implemented");
-      this.selecting = false;
+      this.showingSelect = false;
       for(var i = 0; i < this.tickets.length; i++) {
         if(this.tickets[i].quantity > 0) {
           for(var j = 0; j < this.tickets[i].quantity; j++) {
@@ -121,16 +123,34 @@ var app = new Vue({
     endResults: function(event) {
       //alert("not implemented");
       this.showingResults = false;
-      this.selecting = true;
+      this.showingSelect = true;
       window.scrollTo(0, 0);
       for(var i=0; i<this.tickets.length; i++) {
         this.tickets[i].quantity = 0;
       }
       this.resultsArray = [];
+    },
+    showHelp: function(event) {
+      alert(helpString);
+    },
+    confirmReset: function(event) {
+      this.showingResults = false;
+      this.showingSelect = false;
+      this.showingReset = true;
+    },
+    reset: function(event) {
+      this.showingSelect = true;
+      this.showingReset = false;
+      this.showingResults = false;
+      this.balance = 0;
+      document.cookie = "balance=0; expires=Sat, 01 Jan 2118 12:00:00 UTC; path=/";
+    },
+    dontReset: function(event) {
+      this.showingReset = false;
+      this.showingResults = false;
+      this.showingSelect = true;
     }
   }
+});
 
-
-})
-
-app.$mount('.ticketapp')
+app.$mount('.ticketapp');

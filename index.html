@@ -20,13 +20,15 @@
       <p v-if="balance >= 0">Current Balance: <strong>${{balance}}</strong></p>
       <p v-if="balance < 0">Current Balance:
         <strong><span class="w3-text-red">(${{Math.abs(balance)}})</span></strong>
-        <p>
-          <a href="confirmReset">surrender</a>
-          <a href="showHelp">help</a>
-        </p>
+      </p>
+      <p>
+        <button class="w3-button w3-hover-yellow w3-hover-text-white w3-border w3-border-white"
+          v-on:click="confirmReset"><u>surrender</u></button>
+        <button class="w3-button w3-hover-yellow w3-hover-text-white w3-border w3-border-white"
+          v-on:click="showHelp"><u>help</u></button>
       </p>
     </div>
-    <div id="select" class="w3-content w3-white w3-display-container w3-card-2 w3-center" v-show="selecting">
+    <div id="select" class="w3-content w3-white w3-display-container w3-card-2 w3-center" v-show="showingSelect">
       <ul class="w3-ul">
         <li class="w3-padding-small"><h2>Available Tickets:</h2></li>
         <li class="w3-padding-small" v-for="ticket in tickets">
@@ -38,7 +40,7 @@
       </ul>
       <button v-on:click="buyTickets"
         class="w3-button w3-blue w3-hover-yellow w3-hover-text-white w3-text-white">
-        Buy!</button>
+        <u>Buy!</u></button>
     </div>
     <div id="results" class="w3-content w3-white w3-display-container w3-card-2 w3-center" v-show="showingResults">
       <ul class="w3-ul">
@@ -56,13 +58,20 @@
       </ul>
       <button v-on:click="endResults"
         class="w3-button w3-blue w3-hover-yellow w3-hover-text-white w3-text-white">
-        OK</button>
+        <u>ok</u></button>
     </div>
-
+    <div id="reset" class="w3-content w3-white w3-display-container w3-card-2 w3-center" v-show="showingReset">
+      <p>Are you sure you want to reset your balance to zero?</p>
+      <p>
+        <button class="w3-button w3-blue w3-hover-yellow w3-hover-text-white w3-text-white" v-on:click="reset">
+          <u>yes</u></button>
+        <button class="w3-button w3-blue w3-hover-yellow w3-hover-text-white w3-text-white" v-on:click="dontReset">
+          <u>no</u></button>
+    </div>
 </section>
 <section class="w3-white w3-content w3-center w3-text-small">
   <p>not affiliated with the New York Lottery</p>
   <p>odds are taken from <a href="https://nylottery.ny.gov">nylottery.ny.gov</a></p>
 </section>
-<script src="./script/select.js"></script>
+<script src="./script/app.js"></script>
 </body>

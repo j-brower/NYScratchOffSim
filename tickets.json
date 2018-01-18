@@ -43,8 +43,61 @@
         {"chance": 111.11, "prize": 10},
         {"chance": 250.00, "prize": 20},
         {"chance": 3481.69, "prize": 40},
-        {"chance": 12360.00, "prize": 100},
+        {"chance": 12360, "prize": 100},
         {"chance": 546442.11, "prize": 5555}
+      ]
+    },
+    {
+      "name": "The Money Game",
+      "price": 1,
+      "imgURL": "http://nylottery.ny.gov/wps/wcm/connect/12d7b77d-4481-42ca-99cf-e73d9aa1eccb/1318_lg.jpg?MOD=AJPERES",
+      "chances": [
+        {"chance": 10.42, "prize": 1},
+        {"chance": 13.89, "prize": 2},
+        {"chance": 83.33, "prize":3},
+        {"chance": 250, "prize": 4},
+        {"chance": 100, "prize": 5},
+        {"chance": 125, "prize": 10},
+        {"chance": 250, "prize": 15},
+        {"chance": 500, "prize": 20},
+        {"chance": 500, "prize": 25},
+        {"chance": 3090, "prize": 50},
+        {"chance": 12360, "prize": 100},
+        {"chance": 12360, "prize": 250},
+        {"chance": 706285.71, "prize": 5000}
+    },
+    {
+      "name": "7-11-21",
+      "price": 1,
+      "imgURL": "http://nylottery.ny.gov/wps/wcm/connect/801f1f90-0ede-45f2-9dac-95e623acedbb/1302_lg.jpg?MOD=AJPERES",
+      "chances": [
+        {"chance": 8.87, "prize": 1},
+        {"chance": 16.67, "prize": 2},
+        {"chance": 62.5, "prize":3},
+        {"chance": 250, "prize": 4},
+        {"chance": 250, "prize": 5},
+        {"chance": 250, "prize": 6},
+        {"chance": 312.5, "prize": 7},
+        {"chance": 625, "prize": 8},
+        {"chance": 625, "prize": 9},
+        {"chance": 625, "prize": 10},
+        {"chance": 625, "prize": 11},
+        {"chance": 625, "prize": 12},
+        {"chance": 1250, "prize": 14},
+        {"chance": 625, "prize": 15},
+        {"chance": 625, "prize": 18},
+        {"chance": 625, "prize":21},
+        {"chance": 1250, "prize": 22},
+        {"chance": 1250, "prize": 25},
+        {"chance": 1250, "prize": 27},
+        {"chance": 6180, "prize": 30},
+        {"chance": 30900, "prize": 33},
+        {"chance": 16480, "prize": 50},
+        {"chance": 30900, "prize": 75},
+        {"chance": 41200, "prize": 100},
+        {"chance": 123600, "prize": 200},
+        {"chance": 123600, "prize": 300},
+        {"chance": 415296, "prize": 2100}
       ]
     },
     {
@@ -68,6 +121,21 @@
       ]
     },
     {
+      "name": "Cashword",
+      "price": 2,
+      "imgURL": "http://nylottery.ny.gov/wps/wcm/connect/5ea74873-ccfa-41e1-8341-e92f31befb93/1286_lg.jpg?MOD=AJPERES",
+      "chances": [
+        {"chance": 12.99, "prize": 2},
+        {"chance": 12.82, "prize": 5},
+        {"chance": 31.25, "prize": 10},
+        {"chance": 166.67, "prize": 25},
+        {"chance": 200, "prize": 50},
+        {"chance": 5040, "prize": 100},
+        {"chance": 126000, "prize": 1000},
+        {"chance": 1558666.67 "prize": 10000}
+      ]
+    },
+    {
       "name": "Cashword Doubler",
       "price": 2,
       "imgURL": "http://nylottery.ny.gov/wps/wcm/connect/9b1c072d-a929-421a-b880-b5b78354515c/747_lg.jpg?MOD=AJPERES",
@@ -85,6 +153,44 @@
         {"chance": 249017.75, "prize": 2000},
         {"chance": 1275272.73, "prize": 10000},
         {"chance": 2630250.00, "prize": 20000}
+      ]
+    },
+    {
+      "name": "Red Hot Cash",
+      "price": 2,
+      "imgURL": "http://nylottery.ny.gov/wps/wcm/connect/26e0d1a9-a2f7-49db-8994-6c86965cfc3d/1290_lg.jpg?MOD=AJPERES",
+      "chances": [
+        {"chance": 12.50, "prize": 2},
+        {"chance": 12.50, "prize": 4},
+        {"chance": 83.33, "prize": 5},
+        {"chance": 125, "prize": 8},
+        {"chance": 125, "prize": 10},
+        {"chance": 125, "prize": 15},
+        {"chance": 250, "prize": 20},
+        {"chance": 166.67, "prize": 50},
+        {"chance": 4120, "prize": 100},
+        {"chance": 8240, "prize": 200},
+        {"chance": 61800, "prize": 500},
+        {"chance": 1380200, "prize": 25000}
+      ]
+    },
+    {
+      "name": "Neon 10s",
+      "price": "http://nylottery.ny.gov/wps/wcm/connect/42ae4d4f-984b-4fc2-ac47-7aec61dae6c6/1297_lg.jpg?MOD=AJPERES",
+      "chances": [
+        {"chance": 10.42, "prize": 2},
+        {"chance": 13.16, "prize": 4},
+        {"chance": 125, "prize": 5},
+        {"chance": 125, "prize": 8},
+        {"chance": 166.67, "prize": 10},
+        {"chance": 166.67, "prize": 15},
+        {"chance": 250, "prize": 20},
+        {"chance": 250, "prize": 30},
+        {"chance": 200, "prize": 50},
+        {"chance": 10300, "prize": 100},
+        {"chance": 15450, "prize": 250},
+        {"chance": 24720, "prize": 500},
+        {"chance": 1656240, "prize": 20000}
       ]
     },
     {
