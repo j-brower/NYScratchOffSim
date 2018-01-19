@@ -24,13 +24,13 @@ function simulateScratch(ticket) {
   if(wins.length > 1) { //pick a pseudorandom prize from winners
     var index = Math.floor(Math.random() * Math.floor(wins.length));
     console.log("won " + wins[index]);
-    if(wins[index] == "Free Take 5") {
+    if(wins[index] == "Free Get 5") {
       return wins[index];
     }
     return wins[index] - ticket.price;
   } else if(wins.length == 1) {
     console.log("won " + wins[0]);
-    if(wins[0] == "Free Take 5") {
+    if(wins[0] == "Free Get 5") {
       return wins[0];
     }
     return wins[0] - ticket.price;
@@ -53,7 +53,8 @@ function isWinner(chance) {
 
 var helpString = "You have just moved to New York to pursue your dream of "+
   "becoming a professional convenience store loiterer. You can go into as much"+
-  " debt as your browser will support.";
+  " debt as your browser will support. Lifetime prizes are added to your "+
+  "balance based on average age and life expectancy in NY.";
 var ticketsArray = [];
 var initialBalance = parseInt(readBalance());
 console.log(initialBalance);
@@ -107,7 +108,7 @@ var app = new Vue({
             resultTicket.imgURL = this.tickets[i].imgURL;
             resultTicket.result = result;
             this.resultsArray.push(resultTicket);
-            if(result != "Free Take 5") {
+            if(result != "Free Get 5") {
               this.balance += result;
             } else { //deduct cost of ticket for quickpick
               this.balance -= 1;

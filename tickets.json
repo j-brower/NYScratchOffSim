@@ -1,9 +1,9 @@
 {
   "tickets": [
     {
-      "name": "Loose Change",
+      "name": "Loose Coins",
       "price": 1,
-      "imgURL": "http://nylottery.ny.gov/wps/wcm/connect/1447e9f8-6edf-4e11-ba03-e175afc9d779/803_lg.jpg?MOD=AJPERES",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
       "chances": [
         {"chance": 8.59, "prize": 1},
         {"chance": 18.81, "prize": 2},
@@ -16,9 +16,9 @@
       ]
     },
     {
-      "name": "Lucky 7's",
+      "name": "Fortunate 7s",
       "price": 1,
-      "imgURL": "http://nylottery.ny.gov/wps/wcm/connect/5c62b582-a547-4938-a704-0ed06d1aac99/822_lg.jpg?MOD=AJPERES",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
       "chances": [
         {"chance": 8.33, "prize": 1},
         {"chance": 20.83, "prize": 2},
@@ -32,11 +32,11 @@
       ]
     },
     {
-      "name": "Instant Take 5",
+      "name": "Instant Get 5",
       "price": 1,
-      "imgURL": "http://nylottery.ny.gov/wps/wcm/connect/373a98c1-e4a9-4811-ba75-05330a406250/831_lg.jpg?MOD=AJPERES",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
       "chances": [
-        {"chance": 2.84, "prize": "Free Take 5"},
+        {"chance": 2.84, "prize": "Free Get 5"},
         {"chance": 8.70, "prize": 1},
         {"chance": 23.26, "prize": 2},
         {"chance": 23.81, "prize": 5},
@@ -48,9 +48,9 @@
       ]
     },
     {
-      "name": "The Money Game",
+      "name": "The Currency Game",
       "price": 1,
-      "imgURL": "http://nylottery.ny.gov/wps/wcm/connect/12d7b77d-4481-42ca-99cf-e73d9aa1eccb/1318_lg.jpg?MOD=AJPERES",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
       "chances": [
         {"chance": 10.42, "prize": 1},
         {"chance": 13.89, "prize": 2},
@@ -68,9 +68,9 @@
       ]
     },
     {
-      "name": "7-11-21",
+      "name": "3-7-11-21",
       "price": 1,
-      "imgURL": "http://nylottery.ny.gov/wps/wcm/connect/801f1f90-0ede-45f2-9dac-95e623acedbb/1302_lg.jpg?MOD=AJPERES",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
       "chances": [
         {"chance": 8.87, "prize": 1},
         {"chance": 16.67, "prize": 2},
@@ -102,9 +102,9 @@
       ]
     },
     {
-      "name": "Win for Life",
+      "name": "Win for the Rest of Life",
       "price": 2,
-      "imgURL": "http://nylottery.ny.gov/wps/wcm/connect/e8811324-9c98-4cc2-9e9e-3dba5ad0484a/1124_lg.jpg?MOD=AJPERES",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
       "chances": [
         {"chance": 8.73, "prize": 2},
         {"chance": 39.87, "prize": 4},
@@ -122,9 +122,9 @@
       ]
     },
     {
-      "name": "Cashword",
+      "name": "Crossword",
       "price": 2,
-      "imgURL": "http://nylottery.ny.gov/wps/wcm/connect/5ea74873-ccfa-41e1-8341-e92f31befb93/1286_lg.jpg?MOD=AJPERES",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
       "chances": [
         {"chance": 12.99, "prize": 2},
         {"chance": 12.82, "prize": 5},
@@ -137,9 +137,9 @@
       ]
     },
     {
-      "name": "Cashword Doubler",
+      "name": "Crossword Doubler",
       "price": 2,
-      "imgURL": "http://nylottery.ny.gov/wps/wcm/connect/9b1c072d-a929-421a-b880-b5b78354515c/747_lg.jpg?MOD=AJPERES",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
       "chances": [
         {"chance": 13.16, "prize": 2},
         {"chance": 28.57, "prize": 4},
@@ -157,9 +157,9 @@
       ]
     },
     {
-      "name": "Red Hot Cash",
+      "name": "#FF0000 Hot Cash",
       "price": 2,
-      "imgURL": "http://nylottery.ny.gov/wps/wcm/connect/26e0d1a9-a2f7-49db-8994-6c86965cfc3d/1290_lg.jpg?MOD=AJPERES",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
       "chances": [
         {"chance": 12.50, "prize": 2},
         {"chance": 12.50, "prize": 4},
@@ -176,9 +176,9 @@
       ]
     },
     {
-      "name": "Neon 10s",
+      "name": "Ne 10s",
       "price": 2,
-      "imgURL": "http://nylottery.ny.gov/wps/wcm/connect/42ae4d4f-984b-4fc2-ac47-7aec61dae6c6/1297_lg.jpg?MOD=AJPERES",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
       "chances": [
         {"chance": 10.42, "prize": 2},
         {"chance": 13.16, "prize": 4},
@@ -196,9 +196,9 @@
       ]
     },
     {
-      "name": "Prize Lines",
+      "name": "Lines of Prizes",
       "price": 3,
-      "imgURL": "http://nylottery.ny.gov/wps/wcm/connect/a6faff71-b8b4-4aec-b729-61f14c6835a1/1301_lg.jpg?MOD=AJPERES",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
       "chances": [
         {"chance": 6.67, "prize": 3},
         {"chance": 25, "prize": 5},
@@ -213,9 +213,9 @@
       ]
     },
     {
-      "name": "PAC-MAN",
+      "name": "Semicircle-Man",
       "price": 3,
-      "imgURL": "http://nylottery.ny.gov/wps/wcm/connect/16b7e8d9-2ec7-446b-8f87-97af5a1b6bc1/1293_lg.jpg?MOD=AJPERES",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
       "chances": [
         {"chance": 10, "prize": 3},
         {"chance": 16.67, "prize": 6},
@@ -233,9 +233,9 @@
       ]
     },
     {
-      "name": "Red Line Cashword",
+      "name": "Red Line Crossword",
       "price": 3,
-      "imgURL": "http://nylottery.ny.gov/wps/wcm/connect/7899b37c-a814-4951-8a17-aaf7635e1160/1289_lg.jpg?MOD=AJPERES",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
       "chances": [
         {"chance": 12.50, "prize": 3},
         {"chance": 22.22, "prize": 5},
@@ -257,9 +257,114 @@
       ]
     },
     {
-      "name": "Wonka Golden Ticket",
+      "name": "$2,500 Every Week for Life",
+      "price": 5,
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "chances": [
+        {"chance": 9.09, "prize": 5},
+        {"chance": 25, "prize": 10},
+        {"chance": 50, "prize": 15},
+        {"chance": 100, "prize": 20},
+        {"chance": 100, "prize": 25},
+        {"chance": 100, "prize": 30},
+        {"chance": 100, "prize": 50},
+        {"chance": 1396.61, "prize": 100},
+        {"chance": 16480, "prize": 250},
+        {"chance": 41200, "prize": 500},
+        {"chance": 82400, "prize": 3000},
+        {"chance": 5191200, "prize": 5892500}
+      ]
+    },
+    {
+      "name": "Lucky Number 7",
+      "price": 5,
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "chances": [
+        {"chance": 12.5, "prize": 5},
+        {"chance": 20, "prize": 7},
+        {"chance": 33.33, "prize": 10},
+        {"chance": 50, "prize": 15},
+        {"chance": 66.67, "prize": 20},
+        {"chance": 100, "prize": 25},
+        {"chance": 100, "prize": 35},
+        {"chance": 100, "prize": 70},
+        {"chance": 5493.33, "prize": 245},
+        {"chance": 9507.69, "prize": 350},
+        {"chance": 61800, "prize": 1000},
+        {"chance": 243080, "prize": 7000},
+        {"chance": 3646200, "prize": 7777}
+      ]
+    },
+    {
+      "name": "Double Triple Crossword",
+      "price": 5,
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "chances": [
+        {"chance": 20, "prize": 5},
+        {"chance": 12.9, "prize": 10},
+        {"chance": 66.67, "prize": 15},
+        {"chance": 50, "prize": 20},
+        {"chance": 100, "prize": 25},
+        {"chance": 100, "prize": 30},
+        {"chance": 100, "prize": 50},
+        {"chance": 2100, "prize": 75},
+        {"chance": 1400, "prize": 100},
+        {"chance": 4200, "prize": 150},
+        {"chance": 5600, "prize": 200},
+        {"chance": 8400, "prize": 300},
+        {"chance": 14000, "prize": 500},
+        {"chance": 28000, "prize": 1000},
+        {"chance": 42000, "prize": 1500},
+        {"chance": 105840, "prize": 2500},
+        {"chance": 211680, "prize": 5000},
+        {"chance": 325661.54, "prize": 7500},
+        {"chance": 4233600, "prize": 100000},
+        {"chance": 5292000, "prize": 200000},
+        {"chance": 4233600, "prize": 300000}
+      ]
+    },
+    {
+      "name": "Money X20",
+      "price": 5,
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "chances": [
+        {"chance": 14.29, "prize": 5},
+        {"chance": 8.33, "prize": 10},
+        {"chance": 33.33, "prize": 15},
+        {"chance": 100, "prize": 20},
+        {"chance": 100, "prize": 25},
+        {"chance": 100, "prize": 40},
+        {"chance": 1236, "prize": 100},
+        {"chance": 4120, "prize": 250},
+        {"chance": 7725, "prize": 500},
+        {"chance": 486160, "prize": 5000},
+        {"chance": 3646200, "prize": 1000000}
+      ]
+    },
+    {
+      "name": "#000000 and Au",
+      "price": 5,
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "chances": [
+        {"chance": 8.33, "prize": 5},
+        {"chance": 25, "prize": 8},
+        {"chance": 33.33, "prize": 10},
+        {"chance": 50, "prize": 15},
+        {"chance": 62.50, "prize": 20},
+        {"chance": 100, "prize": 30},
+        {"chance": 100, "prize": 40},
+        {"chance": 389.29, "prize": 80},
+        {"chance": 1765.71, "prize": 300},
+        {"chance": 4944, "prize": 500},
+        {"chance": 145848, "prize": 5000},
+        {"chance": 972320, "prize": 10000},
+        {"chance": 3646200, "prize": 1000000}
+      ]
+    },
+    {
+      "name": "The Golden Ticket",
       "price": 10,
-      "imgURL": "http://nylottery.ny.gov/wps/wcm/connect/4e58f64c-09ba-458c-a9c1-2dc1bad67309/1282_lg.jpg?MOD=AJPERES",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
       "chances": [
         {"chance": 8.33, "prize": 10},
         {"chance": 50.00, "prize": 15},
@@ -275,6 +380,161 @@
         {"chance": 840480.00, "prize": 5000},
         {"chance": 1680960.00, "prize": 10000},
         {"chance": 4202400.00, "prize": 3000000}
+      ]
+    },
+    {
+      "name": "$1,000,000 Crossword",
+      "price": 10,
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "chances": [
+        {"chance": 8.33, "prize": 10},
+        {"chance": 12.5, "prize": 20},
+        {"chance": 33.33, "prize": 30},
+        {"chance": 25, "prize": 50},
+        {"chance": 454.41, "prize": 100},
+        {"chance": 3296, "prize": 500},
+        {"chance": 61800, "prize": 5000},
+        {"chance": 3090000, "prize": 1000000}
+      ]
+    },
+    {
+      "name": "Get 600",
+      "price": 10,
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "chances": [
+        {"chance": 10, "prize": 10},
+        {"chance": 50, "prize": 15},
+        {"chance": 16.67, "prize": 20},
+        {"chance": 25, "prize": 25},
+        {"chance": 50, "prize": 30},
+        {"chance": 50, "prize": 50},
+        {"chance": 412, "prize": 60},
+        {"chance": 664.52, "prize": 75},
+        {"chance": 772.5, "prize": 100},
+        {"chance": 1030, "prize": 200},
+        {"chance": 618, "prize": 600}
+      ]
+    },
+    {
+      "name": "Set for the Rest of Life",
+      "price": 10,
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "chances": [
+        {"chance": 11.36, "prize": 10},
+        {"chance": 41.67, "prize": 15},
+        {"chance": 17.86, "prize": 20},
+        {"chance": 27.78, "prize": 25},
+        {"chance": 25, "prize": 50},
+        {"chance": 119.42, "prize": 100},
+        {"chance": 3090, "prize": 500},
+        {"chance": 123600, "prize": 1000},
+        {"chance": 329600, "prize": 5000},
+        {"chance": 2060000, "prize": 50000},
+        {"chance": 6180000, "prize": 11785000}
+      ]
+    },
+    {
+      "name": "$10,000 Every Week for Life",
+      "price": 20,
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "chances": [
+        {"chance": 8.33, "prize": 20},
+        {"chance": 17.86, "prize": 25},
+        {"chance": 25, "prize": 30},
+        {"chance": 25, "prize": 40},
+        {"chance": 50, "prize": 50},
+        {"chance": 35.71, "prize": 100},
+        {"chance": 230.81, "prize": 200},
+        {"chance": 824, "prize": 500},
+        {"chance": 9888, "prize": 2000},
+        {"chance": 41200, "prize": 4000},
+        {"chance": 49440, "prize": 10000},
+        {"chance": 247200, "prize": 20000},
+        {"chance": 5520800, "prize": 23570000}
+      ]
+    },
+    {
+      "name": "$5,000,000 Bank Account",
+      "price": 20,
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "chances": [
+        {"chance": 10, "prize": 20},
+        {"chance": 25, "prize": 30},
+        {"chance": 25, "prize": 40},
+        {"chance": 25, "prize": 50},
+        {"chance": 50, "prize": 60},
+        {"chance": 50, "prize": 100},
+        {"chance": 103, "prize": 200},
+        {"chance": 303.69, "prize": 300},
+        {"chance": 1765.71, "prize": 500},
+        {"chance": 41200, "prize": 5000},
+        {"chance": 123600, "prize": 10000},
+        {"chance": 364620, "prize": 25000},
+        {"chance": 3646200, "prize": 5000000}
+      ]
+    },
+    {
+      "name": "$7,000,000 Money Blowout",
+      "price": 25,
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "chances": [
+        {"chance": 8.33, "prize": 40},
+        {"chance": 12.5, "prize": 50},
+        {"chance": 50, "prize": 80},
+        {"chance": 50, "prize": 100},
+        {"chance": 103, "prize": 200},
+        {"chance": 206, "prize": 250},
+        {"chance": 706.29, "prize": 400},
+        {"chance": 1648, "prize": 500},
+        {"chance": 13010.53, "prize": 2500},
+        {"chance": 41200, "prize": 5000},
+        {"chance": 82400, "prize": 10000},
+        {"chance": 244867.92, "prize": 20000},
+        {"chance": 4326000, "prize": 7000000}
+      ]
+    },
+    {
+      "name": "$10,000,000 Tax Free",
+      "price": 30,
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "chances": [
+        {"chance": 5.71, "prize": 50},
+        {"chance": 25, "prize": 75},
+        {"chance": 28.57, "prize": 100},
+        {"chance": 100, "prize": 125},
+        {"chance": 100, "prize": 150},
+        {"chance": 494.4, "prize": 200},
+        {"chance": 765.33, "prize": 250},
+        {"chance": 2472, "prize": 300},
+        {"chance": 3090, "prize": 400},
+        {"chance": 6180, "prize": 500},
+        {"chance": 30900, "prize": 2500},
+        {"chance": 82400, "prize": 4000},
+        {"chance": 276040, "prize": 10000},
+        {"chance": 1656240, "prize": 200000},
+        {"chance": 3312480, "prize": 10000000}
+      ]
+    },
+    {
+      "name": "$350,000,000 Tax Free Spectacular",
+      "price": 30,
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "chances": [
+        {"chance": 5.56, "prize": 50},
+        {"chance": 20, "prize": 75},
+        {"chance": 33.33, "prize": 100},
+        {"chance": 100, "prize": 125},
+        {"chance": 100, "prize": 150},
+        {"chance": 1030, "prize": 250},
+        {"chance": 1545, "prize": 300},
+        {"chance": 4120, "prize": 400},
+        {"chance": 5150, "prize": 500},
+        {"chance": 6866.67, "prize": 600},
+        {"chance": 41200, "prize": 2500},
+        {"chance": 414060, "prize": 5000},
+        {"chance": 828120, "prize": 10000},
+        {"chance": 4140600, "prize": 250000},
+        {"chance": 3312480, "prize": 10000000}
       ]
     }
   ]

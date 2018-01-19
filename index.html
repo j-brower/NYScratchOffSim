@@ -52,8 +52,8 @@
             You spent ${{ticket.price}} and won ${{ticket.result + ticket.price}}!<span></p>
           <p v-if="ticket.result < 0"><span class="w3-text-red">
             You lost ${{Math.abs(ticket.result)}}.</span></p>
-          <p v-if="ticket.result =='Free Take 5'">
-            You spent $1 and won a Take Five quickpick...</p>
+          <p v-if="ticket.result =='Free Get 5'">
+            You spent $1 and won a 5 digit lotto quickpick...</p>
         </li>
       </ul>
       <button v-on:click="endResults"
@@ -71,7 +71,6 @@
 </section>
 <section class="w3-white w3-content w3-center w3-text-small">
   <p>not affiliated with the New York Lottery</p>
-  <p>odds are taken from <a href="https://nylottery.ny.gov">nylottery.ny.gov</a></p>
 </section>
 <script src="./script/app.js"></script>
 </body>
