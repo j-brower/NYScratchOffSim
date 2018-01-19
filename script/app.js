@@ -61,7 +61,7 @@ if(isNaN(initialBalance)) {
   initialBalance = 0;
   document.cookie = "balance=0; expires=Sat, 01 Jan 2118 12:00:00 UTC; path=/";
 }
-axios.get('https://github.com/j-brower/NYScratchOffSim/raw/master/tickets.json').then(response => {
+axios.get('https://j-brower.github.io/NYScratchOffSim/tickets.json').then(response => {
   ticketsRes = response.data.tickets;
   for(i = 0; i < ticketsRes.length; i++) {
     var obj = {

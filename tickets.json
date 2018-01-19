@@ -177,7 +177,8 @@
     },
     {
       "name": "Neon 10s",
-      "price": "http://nylottery.ny.gov/wps/wcm/connect/42ae4d4f-984b-4fc2-ac47-7aec61dae6c6/1297_lg.jpg?MOD=AJPERES",
+      "price": 2,
+      "imgURL": "http://nylottery.ny.gov/wps/wcm/connect/42ae4d4f-984b-4fc2-ac47-7aec61dae6c6/1297_lg.jpg?MOD=AJPERES",
       "chances": [
         {"chance": 10.42, "prize": 2},
         {"chance": 13.16, "prize": 4},
@@ -192,6 +193,67 @@
         {"chance": 15450, "prize": 250},
         {"chance": 24720, "prize": 500},
         {"chance": 1656240, "prize": 20000}
+      ]
+    },
+    {
+      "name": "Prize Lines",
+      "price": 3,
+      "imgURL": "http://nylottery.ny.gov/wps/wcm/connect/a6faff71-b8b4-4aec-b729-61f14c6835a1/1301_lg.jpg?MOD=AJPERES",
+      "chances": [
+        {"chance": 6.67, "prize": 3},
+        {"chance": 25, "prize": 5},
+        {"chance": 50, "prize": 10},
+        {"chance": 50, "prize": 15},
+        {"chance": 100, "prize": 20},
+        {"chance": 100, "prize": 30},
+        {"chance": 412, "prize": 50},
+        {"chance": 4494.55, "prize": 250},
+        {"chance": 123600, "prize": 5000},
+        {"chance": 2472000, "prize": 75000}
+      ]
+    },
+    {
+      "name": "PAC-MAN",
+      "price": 3,
+      "imgURL": "http://nylottery.ny.gov/wps/wcm/connect/16b7e8d9-2ec7-446b-8f87-97af5a1b6bc1/1293_lg.jpg?MOD=AJPERES",
+      "chances": [
+        {"chance": 10, "prize": 3},
+        {"chance": 16.67, "prize": 6},
+        {"chance": 25, "prize": 10},
+        {"chance": 50, "prize": 15},
+        {"chance": 100, "prize": 20},
+        {"chance": 224.73, "prize": 25},
+        {"chance": 329.6, "prize": 50},
+        {"chance": 9888, "prize": 100},
+        {"chance": 35314.29, "prize": 250},
+        {"chance": 61800, "prize": 500},
+        {"chance": 1545000, "prize": 1000},
+        {"chance": 2060000, "prize": 5000},
+        {"chance": 2060000, "prize": 60000}
+      ]
+    },
+    {
+      "name": "Red Line Cashword",
+      "price": 3,
+      "imgURL": "http://nylottery.ny.gov/wps/wcm/connect/7899b37c-a814-4951-8a17-aaf7635e1160/1289_lg.jpg?MOD=AJPERES",
+      "chances": [
+        {"chance": 12.50, "prize": 3},
+        {"chance": 22.22, "prize": 5},
+        {"chance": 50, "prize": 6},
+        {"chance": 100, "prize": 9},
+        {"chance": 100, "prize": 10},
+        {"chance": 100, "prize": 12},
+        {"chance": 100, "prize": 15},
+        {"chance": 100, "prize": 20},
+        {"chance": 200, "prize": 25},
+        {"chance": 200, "prize": 30},
+        {"chance": 294.29, "prize": 50},
+        {"chance": 1961.9, "prize": 100},
+        {"chance": 6180, "prize": 200},
+        {"chance": 11236.36, "prize": 400},
+        {"chance": 41200, "prize": 500},
+        {"chance": 123600, "prize": 1000},
+        {"chance": 1545000, "prize": 10000}
       ]
     },
     {
