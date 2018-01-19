@@ -6,7 +6,7 @@ body:before {
   width: 100%;
   height: 100%;
   z-index: -10;
-  background: url("https://github.com/j-brower/NYScratchOffSim/blob/master/background.jpg?raw=true");
+  background: url("https://github.com/j-brower/NYScratchOffSim/raw/master/resources/background.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -14,7 +14,7 @@ body:before {
 }
 body {
   font-family: 'Open Sans', sans-serif;
-  /*background-image: url("https://github.com/j-brower/NYScratchOffSim/blob/master/resources/background.jpg?raw=true");
+  /*background-image: url("https://github.com/j-brower/NYScratchOffSim/raw/master/resources/background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;*/
 }
