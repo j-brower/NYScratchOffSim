@@ -3,7 +3,7 @@
     {
       "name": "Loose Coins",
       "price": 1,
-      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/1/coins.jpg?raw=true",
       "chances": [
         {"chance": 8.59, "prize": 1},
         {"chance": 18.81, "prize": 2},
@@ -18,7 +18,7 @@
     {
       "name": "Fortunate 7s",
       "price": 1,
-      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/1/7.jpg?raw=true",
       "chances": [
         {"chance": 8.33, "prize": 1},
         {"chance": 20.83, "prize": 2},
@@ -34,7 +34,7 @@
     {
       "name": "Instant Get 5",
       "price": 1,
-      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/1/5.jpg?raw=true",
       "chances": [
         {"chance": 2.84, "prize": "Free Get 5"},
         {"chance": 8.70, "prize": 1},
