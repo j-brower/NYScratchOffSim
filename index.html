@@ -33,7 +33,7 @@
       <ul class="w3-ul">
         <li class="w3-padding-small"><h2>Available Tickets:</h2></li>
         <li class="w3-padding-small" v-for="ticket in tickets">
-          <img id="ticketImage" :src="ticket.imgURL" class="w3-image" style="width:16px;">
+          <img id="ticketImage" :src="ticket.imgURL" class="w3-image" style="width:32px;">
           <p>{{ticket.name}} (${{ticket.price}})</p>
           <input v-model="ticket.quantity" type="number" min="0"
             class="w3-input w3-border w3-center">

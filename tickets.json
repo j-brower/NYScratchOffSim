@@ -50,7 +50,7 @@
     {
       "name": "The Currency Game",
       "price": 1,
-      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/1/game.jpg?raw=true",
       "chances": [
         {"chance": 10.42, "prize": 1},
         {"chance": 13.89, "prize": 2},
@@ -70,7 +70,7 @@
     {
       "name": "3-7-11-21",
       "price": 1,
-      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/1/21.jpg?raw=true",
       "chances": [
         {"chance": 8.87, "prize": 1},
         {"chance": 16.67, "prize": 2},
