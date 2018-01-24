@@ -104,7 +104,7 @@
     {
       "name": "Win for the Rest of Life",
       "price": 2,
-      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/2/life.jpg?raw=true",
       "chances": [
         {"chance": 8.73, "prize": 2},
         {"chance": 39.87, "prize": 4},
@@ -124,7 +124,7 @@
     {
       "name": "Crossword",
       "price": 2,
-      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/2/crossword.jpg?raw=true",
       "chances": [
         {"chance": 12.99, "prize": 2},
         {"chance": 12.82, "prize": 5},
@@ -139,7 +139,7 @@
     {
       "name": "Crossword Doubler",
       "price": 2,
-      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/2/crossword2.jpg?raw=true",
       "chances": [
         {"chance": 13.16, "prize": 2},
         {"chance": 28.57, "prize": 4},
@@ -159,7 +159,7 @@
     {
       "name": "#FF0000 Hot Cash",
       "price": 2,
-      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/2/hot.jpg?raw=true",
       "chances": [
         {"chance": 12.50, "prize": 2},
         {"chance": 12.50, "prize": 4},
@@ -178,7 +178,7 @@
     {
       "name": "Ne 10s",
       "price": 2,
-      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/2/10.jpg?raw=true",
       "chances": [
         {"chance": 10.42, "prize": 2},
         {"chance": 13.16, "prize": 4},
@@ -198,7 +198,7 @@
     {
       "name": "Lines of Prizes",
       "price": 3,
-      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/3/line.jpg?raw=true",
       "chances": [
         {"chance": 6.67, "prize": 3},
         {"chance": 25, "prize": 5},
@@ -215,7 +215,7 @@
     {
       "name": "Semicircle-Man",
       "price": 3,
-      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/3/circle.jpg?raw=true",
       "chances": [
         {"chance": 10, "prize": 3},
         {"chance": 16.67, "prize": 6},
@@ -235,7 +235,7 @@
     {
       "name": "Red Line Crossword",
       "price": 3,
-      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/3/crossword.jpg?raw=true",
       "chances": [
         {"chance": 12.50, "prize": 3},
         {"chance": 22.22, "prize": 5},
@@ -259,7 +259,7 @@
     {
       "name": "$2,500 Every Week for Life",
       "price": 5,
-      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/5/life2.jpg?raw=true",
       "chances": [
         {"chance": 9.09, "prize": 5},
         {"chance": 25, "prize": 10},
@@ -278,7 +278,7 @@
     {
       "name": "Lucky Number 7",
       "price": 5,
-      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/5/big7.jpg?raw=true",
       "chances": [
         {"chance": 12.5, "prize": 5},
         {"chance": 20, "prize": 7},
@@ -298,7 +298,7 @@
     {
       "name": "Double Triple Crossword",
       "price": 5,
-      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/5/crossword5.jpg?raw=true",
       "chances": [
         {"chance": 20, "prize": 5},
         {"chance": 12.9, "prize": 10},
@@ -326,7 +326,7 @@
     {
       "name": "Money X20",
       "price": 5,
-      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/5/20.jpg?raw=true",
       "chances": [
         {"chance": 14.29, "prize": 5},
         {"chance": 8.33, "prize": 10},
@@ -344,7 +344,7 @@
     {
       "name": "#000000 and Au",
       "price": 5,
-      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/5/au.jpg?raw=true",
       "chances": [
         {"chance": 8.33, "prize": 5},
         {"chance": 25, "prize": 8},
@@ -364,7 +364,7 @@
     {
       "name": "The Golden Ticket",
       "price": 10,
-      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/10/gold.jpg?raw=true",
       "chances": [
         {"chance": 8.33, "prize": 10},
         {"chance": 50.00, "prize": 15},
@@ -385,7 +385,7 @@
     {
       "name": "$1,000,000 Crossword",
       "price": 10,
-      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/10/crossword10.jpg?raw=true",
       "chances": [
         {"chance": 8.33, "prize": 10},
         {"chance": 12.5, "prize": 20},
@@ -400,7 +400,7 @@
     {
       "name": "Get 600",
       "price": 10,
-      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/10/600.jpg?raw=true",
       "chances": [
         {"chance": 10, "prize": 10},
         {"chance": 50, "prize": 15},
@@ -418,7 +418,7 @@
     {
       "name": "Set for the Rest of Life",
       "price": 10,
-      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/10/set.jpg?raw=true",
       "chances": [
         {"chance": 11.36, "prize": 10},
         {"chance": 41.67, "prize": 15},
@@ -436,7 +436,7 @@
     {
       "name": "$10,000 Every Week for Life",
       "price": 20,
-      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/20/1000.jpg?raw=true",
       "chances": [
         {"chance": 8.33, "prize": 20},
         {"chance": 17.86, "prize": 25},
@@ -456,7 +456,7 @@
     {
       "name": "$5,000,000 Bank Account",
       "price": 20,
-      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/20/bank.jpg?raw=true",
       "chances": [
         {"chance": 10, "prize": 20},
         {"chance": 25, "prize": 30},
@@ -476,7 +476,7 @@
     {
       "name": "$7,000,000 Money Blowout",
       "price": 25,
-      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/25/blowout.jpg?raw=true",
       "chances": [
         {"chance": 8.33, "prize": 40},
         {"chance": 12.5, "prize": 50},
@@ -496,7 +496,7 @@
     {
       "name": "$10,000,000 Tax Free",
       "price": 30,
-      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/30/10000000.jpg?raw=true",
       "chances": [
         {"chance": 5.71, "prize": 50},
         {"chance": 25, "prize": 75},
@@ -518,7 +518,7 @@
     {
       "name": "$350,000,000 Tax Free Spectacular",
       "price": 30,
-      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/placeholder.jpg?raw=true",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/30/spectacular.jpg?raw=true",
       "chances": [
         {"chance": 5.56, "prize": 50},
         {"chance": 20, "prize": 75},
