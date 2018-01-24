@@ -235,7 +235,7 @@
     {
       "name": "Red Line Crossword",
       "price": 3,
-      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/3/crossword.jpg?raw=true",
+      "imgURL": "https://github.com/j-brower/NYScratchOffSim/blob/master/resources/3/crossword3.jpg?raw=true",
       "chances": [
         {"chance": 12.50, "prize": 3},
         {"chance": 22.22, "prize": 5},
