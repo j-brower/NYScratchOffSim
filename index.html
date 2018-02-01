@@ -32,12 +32,102 @@
     <div id="select" class="w3-content w3-white w3-display-container w3-card-2 w3-center" v-show="showingSelect">
       <ul class="w3-ul">
         <li class="w3-padding-small"><h2>Available Tickets:</h2></li>
-        <li class="w3-padding-small" v-for="ticket in tickets">
-          <img id="ticketImage" :src="ticket.imgURL" class="w3-image" style="width:32px;">
-          <p>{{ticket.name}} (${{ticket.price}})</p>
-          <input v-model="ticket.quantity" type="number" min="0"
-            class="w3-input w3-border w3-center">
-        </li>
+        <li><button class="w3-padding-small w3-button w3-red" v-on:click="toggleOnes">
+          <div v-if="showOnes">Hide $1 Tickets</div>
+          <div v-else>Show $1 Tickets</div>
+        </button></li>
+        <div id="ones" v-show="showOnes">
+          <li class="w3-padding-small" v-for="ticket in ones">
+            <img id="ticketImage" :src="ticket.imgURL" class="w3-image" style="width:32px;">
+            <p>{{ticket.name}} (${{ticket.price}})</p>
+            <input v-model="ticket.quantity" type="number" min="0"
+              class="w3-input w3-border w3-center">
+          </li>
+        </div>
+        <li><button class="w3-padding-small w3-button w3-red" v-on:click="toggleTwos">
+          <div v-if="showTwos">Hide $2 Tickets</div>
+          <div v-else>Show $2 Tickets</div>
+        </button></li>
+        <div id="twos" v-show="showTwos">
+          <li class="w3-padding-small" v-for="ticket in twos">
+            <img id="ticketImage" :src="ticket.imgURL" class="w3-image" style="width:32px;">
+            <p>{{ticket.name}} (${{ticket.price}})</p>
+            <input v-model="ticket.quantity" type="number" min="0"
+              class="w3-input w3-border w3-center">
+          </li>
+        </div>
+        <li><button class="w3-padding-small w3-button w3-red" v-on:click="toggleThrees">
+          <div v-if="showThrees">Hide $3 Tickets</div>
+          <div v-else>Show $3 Tickets</div>
+        </button></li>
+        <div id="threes" v-show="showThrees">
+          <li class="w3-padding-small" v-for="ticket in threes">
+            <img id="ticketImage" :src="ticket.imgURL" class="w3-image" style="width:32px;">
+            <p>{{ticket.name}} (${{ticket.price}})</p>
+            <input v-model="ticket.quantity" type="number" min="0"
+              class="w3-input w3-border w3-center">
+          </li>
+        </div>
+        <li><button class="w3-padding-small w3-button w3-red" v-on:click="toggleFives">
+          <div v-if="showFives">Hide $5 Tickets</div>
+          <div v-else>Show $5 Tickets</div>
+        </button></li>
+        <div id="fives" v-show="showFives">
+          <li class="w3-padding-small" v-for="ticket in fives">
+            <img id="ticketImage" :src="ticket.imgURL" class="w3-image" style="width:32px;">
+            <p>{{ticket.name}} (${{ticket.price}})</p>
+            <input v-model="ticket.quantity" type="number" min="0"
+              class="w3-input w3-border w3-center">
+          </li>
+        </div>
+        <li><button class="w3-padding-small w3-button w3-red" v-on:click="toggleTens">
+          <div v-if="showTens">Hide $10 Tickets</div>
+          <div v-else>Show $10 Tickets</div>
+        </button></li>
+        <div id="tens" v-show="showTens">
+          <li class="w3-padding-small" v-for="ticket in tens">
+            <img id="ticketImage" :src="ticket.imgURL" class="w3-image" style="width:32px;">
+            <p>{{ticket.name}} (${{ticket.price}})</p>
+            <input v-model="ticket.quantity" type="number" min="0"
+              class="w3-input w3-border w3-center">
+          </li>
+        </div>
+        <li><button class="w3-padding-small w3-button w3-red" v-on:click="toggleTwenties">
+          <div v-if="showTwenties">Hide $20 Tickets</div>
+          <div v-else>Show $20 Tickets</div>
+        </button></li>
+        <div id="twenties" v-show="showTwenties">
+          <li class="w3-padding-small" v-for="ticket in twenties">
+            <img id="ticketImage" :src="ticket.imgURL" class="w3-image" style="width:32px;">
+            <p>{{ticket.name}} (${{ticket.price}})</p>
+            <input v-model="ticket.quantity" type="number" min="0"
+              class="w3-input w3-border w3-center">
+          </li>
+        </div>
+        <li><button class="w3-padding-small w3-button w3-red" v-on:click="toggleTwentyFives">
+          <div v-if="showTwentyFives">Hide $25 Tickets</div>
+          <div v-else>Show $25 Tickets</div>
+        </button></li>
+        <div id="twentyfives" v-show="showTwentyFives">
+          <li class="w3-padding-small" v-for="ticket in twentyfives">
+            <img id="ticketImage" :src="ticket.imgURL" class="w3-image" style="width:32px;">
+            <p>{{ticket.name}} (${{ticket.price}})</p>
+            <input v-model="ticket.quantity" type="number" min="0"
+              class="w3-input w3-border w3-center">
+          </li>
+        </div>
+        <li><button class="w3-padding-small w3-button w3-red" v-on:click="toggleThirties">
+          <div v-if="showThirties">Hide $30 Tickets</div>
+          <div v-else>Show $30 Tickets</div>
+        </button></li>
+        <div id="thirties" v-show="showThirties">
+          <li class="w3-padding-small" v-for="ticket in thirties">
+            <img id="ticketImage" :src="ticket.imgURL" class="w3-image" style="width:32px;">
+            <p>{{ticket.name}} (${{ticket.price}})</p>
+            <input v-model="ticket.quantity" type="number" min="0"
+              class="w3-input w3-border w3-center">
+          </li>
+        </div>
       </ul>
       <button v-on:click="buyTickets"
         class="w3-button w3-blue w3-hover-yellow w3-hover-text-white w3-text-white">
@@ -47,7 +137,7 @@
       <ul class="w3-ul">
         <li class="w3-padding-small"><h2>Results:</h2></li>
         <li class="w3-padding-small" v-for="ticket in resultsArray">
-          <img id="ticketImage" :src="ticket.imgURL" class="w3-image" style="height:32px;">
+          <img id="ticketImage" :src="ticket.imgURL" class="w3-image" style="width:32px;">
           {{ticket.name}}
           <p v-if="ticket.result >= 0"><span class="w3-text-green">
             You spent ${{ticket.price}} and won ${{ticket.result + ticket.price}}!<span></p>

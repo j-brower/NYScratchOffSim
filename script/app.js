@@ -82,7 +82,9 @@ axios.get('https://j-brower.github.io/NYScratchOffSim/tickets.json').then(respon
     console.log("Could not retrieve data.");
   });
 
+Vue.component('ticketlist', {
 
+});
 
 var app = new Vue({
 
@@ -92,7 +94,57 @@ var app = new Vue({
     resultsArray: [],
     showingSelect: true,
     showingResults: false,
-    showingReset: false
+    showingReset: false,
+    showOnes: false,
+    showTwos: false,
+    showThrees: false,
+    showFives: false,
+    showTens: false,
+    showTwenties: false,
+    showTwentyFives: false,
+    showThirties: false
+  },
+  computed: {
+    ones: function () {
+      return this.tickets.filter(function (ticket) {
+        return ticket.price === 1;
+      });
+    },
+    twos: function () {
+      return this.tickets.filter(function (ticket) {
+        return ticket.price === 2;
+      });
+    },
+    threes: function () {
+      return this.tickets.filter(function (ticket) {
+        return ticket.price === 3;
+      });
+    },
+    fives: function () {
+      return this.tickets.filter(function (ticket) {
+        return ticket.price === 5;
+      });
+    },
+    tens: function () {
+      return this.tickets.filter(function (ticket) {
+        return ticket.price === 10;
+      });
+    },
+    twenties: function () {
+      return this.tickets.filter(function (ticket) {
+        return ticket.price === 20;
+      });
+    },
+    twentyfives: function () {
+      return this.tickets.filter(function (ticket) {
+        return ticket.price === 25;
+      });
+    },
+    thirties: function () {
+      return this.tickets.filter(function (ticket) {
+        return ticket.price === 30;
+      })
+    }
   },
   methods: {
     buyTickets: function(event) {
@@ -150,7 +202,15 @@ var app = new Vue({
       this.showingReset = false;
       this.showingResults = false;
       this.showingSelect = true;
-    }
+    },
+    toggleOnes: function() { this.showOnes = !this.showOnes; },
+    toggleTwos: function() { this.showTwos = !this.showTwos; },
+    toggleThrees: function() { this.showThrees = !this.showThrees; },
+    toggleFives: function() { this.showFives = !this.showFives; },
+    toggleTens: function() { this.showTens = !this.showTens; },
+    toggleTwenties: function() { this.showTwenties = !this.showTwenties; },
+    toggleTwentyFives: function() { this.showTwentyFives = !this.showTwentyFives; },
+    toggleThirties: function() { this.showThirties = !this.showThirties; }
   }
 });
 
